@@ -19,8 +19,7 @@
 
         <!-- Css links -->
         <link rel="stylesheet" href="build/css/app.min.css">
-        <!-- <link rel="stylesheet" href="css/main.css"> -->
-
+        
         <!-- Google fonts -->
         <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500,700,700italic,500italic,400italic,300italic,300' rel='stylesheet' type='text/css'>
     </head>
@@ -31,29 +30,34 @@
 
         <article class="header-container">
             <header class="yc-header-container wrapper clearfix">
-                <h1 class="title">
-                    <span class="yc-title ">Ycode</span> 
-                    <span class="yc-subtitle">< Workshop ></span>
-                </h1>
+                <a href="#Sobre">
+                    <h1 class="title">
+                        <span class="yc-title ">Ycode</span> 
+                        <span class="yc-subtitle">< Workshop ></span>
+                    </h1>
+                </a>
                 <nav class="yc-menu">
                     <ul class="yc-list">
                         <li class="yc-option signUp">
-                            <a class="yc-link" href="http://goo.gl/forms/L1JiTdDaQs" target="_blank">Inscrições</a>
+                            <a class="yc-link" href="http://goo.gl/forms/L1JiTdDaQs" target="_blank">Inscreva-se!</a>
                         </li>
                         <li class="yc-option">
                             <a class="yc-link" href="#Sobre">Sobre</a>
                         </li>
                         <li class="yc-option">
-                            <a class="yc-link" href="#">Módulos</a>
+                            <a class="yc-link" href="#Modulo">Módulos</a>
                         </li>
                     </ul>
                 </nav>
             </header>
         </article>
 
-        <article class="yc-main main-container">
-            <article class="main wrapper clearfix">
-                <article id="Sobre">
+        <article class="yc-main wrapper clearfix main-container">
+            <a id="Sobre"></a>
+            <a id="Modulo"></a>
+            <article id="Main" class="main">
+                <!-- Page About -->
+                <article id="Sobre" class="yc-panel">
                     <header>
                         <h1>Ycode workshop</h1>
                         <p>O Ycode workshop foi criado no dia 01/07/2015, com intuito de atender a crescente demanda de designers, publicitários, desenvolvedores e pessoas interessadas em começar seu próprio negócio na Web.</p>
@@ -63,45 +67,175 @@
                         <p>O conteúdo do workshop está separado em módulos para uma melhor compreenção de cada participante sobre as tecnologias ensinadas. Seguem os módulos do workshop:</p>
                         <ul class="yc-list-module">
                             <li>
-                                <a class="yc-module" href="#">Módulo 1: HTML, CSS, Frameworks CSS, Design Responsivo e Mobile First</a>
+                                <a class="yc-module" href="#Modulo">Módulo 1: HTML, CSS, Frameworks CSS, Design Responsivo e Mobile First</a>
                             </li>
                             <li>
-                                <a class="yc-module" href="#">Módulo 2: (PROJETO) HTML, CSS, Framework CSS, Design Responsivo e Mobile First</a>
+                                <a class="yc-module" href="#Modulo">Módulo 2: (PROJETO) HTML, CSS, Framework CSS, Design Responsivo e Mobile First</a>
                             </li>
                             <li>
-                                <a class="yc-module" href="#">Módulo 3: HTML, CSS, Javascript, AngularJs e Jquery.</a>
+                                <a class="yc-module" href="#Modulo">Módulo 3: (PROJETO) HTML, CSS, Javascript, AngularJs e Jquery.</a>
                             </li>
                             <li>
-                                <a class="yc-module" href="#">Módulo 4: Javascript, Grunt, Bower, Github.</a>
+                                <a class="yc-module" href="#Modulo">Módulo 4: (PROJETO) Javascript, Grunt, Bower, Github.</a>
                             </li>
                         </ul>
                     </section>
+                </article>
+                <!-- Page Module -->
+                <article id="Modulo" class="yc-panel">
+                    <header>
+                        <h1>Módulos</h1>
+                        <p>Por enquanto, só a ementa do módulo 1 está disponível. <br> 
+                            Segue a ementa do módulo 1:</p>
+                    </header>
                     <section>
-                        <h2></h2>
-                        <p></p>
+                        <h3>Módulo 1 // HTML & CSS</h3>
+                        <ul class="yc-scroll-module">
+                            <li>Teoria HTML</li>
+                            <ul>
+                                <li>Para que serve, porque utilizar e como utilizar.</li>
+                            </ul>
+                            <li>Estrutura HTML</li>
+                            <ul>
+                                <li>Estrutura básica de um documento HTML e sua sintaxe.</li>
+                            </ul>
+                            <li>Conhecendo as tags HTML</li>
+                            <ul>
+                                <li>Primeiros passos com HTML.</li>
+                                <li>Boas práticas (identação/comentários).</li>
+                                <li>HTML5, o que nos trouxe de novo?</li>
+                                <li>Tags</li>
+                                <ul>
+                                    <li>Doctype, html, head, title, metas, body, section, article, header, aside, nav, footer, script, link, a, button, ul ...</li>
+                                    <li>Entre outras tags (Tags e propriedades novas do HTML 5).</li>
+                                </ul>
+                            </ul>
+                        </ul>
+                        <section class="yc-grid-module">
+                            <ul>
+                                <li>Teoria CSS</li>
+                                <ul>
+                                    <li>Para que serve, porque utilizar e como utilizar.</li>
+                                </ul>
+                                <li>Sintaxe e Inclusão CSS</li>
+                                <ul>
+                                    <li>Atributo style.</li>
+                                    <li>A Tag style.</li>
+                                    <li>Arquivo Externo.</li>
+                                    <li>Boas práticas.</li>
+                                </ul>
+                                <li>Conhecendo as propriedades CSS</li>
+                                <ul>
+                                    <li>Propriedades mais utilizadas.</li>
+                                    <li>Propriedades novas da versão 3.</li>
+                                    <li>Entendendo o porque e como utilizar certas propriedades.</li>
+                                </ul>
+                                <li>Links HTML</li>
+                                <ul>
+                                    <li>Link para navegação interna.</li>
+                                    <li>Link para navegação externa.</li>
+                                    <li>Target, media (para definir tipo de media), download (link para baixar).</li>
+                                </ul>
+                                <li>Seletores CSS</li>
+                                <ul>
+                                    <li>#id</li>
+                                    <li>.class</li>
+                                    <li>tag</li>
+                                    <li>Hierarquia</li>
+                                </ul>
+                                <li>CSS Reset & Normalize</li>
+                                <ul>
+                                    <li>Para que serve?</li>
+                                    <li>Qual a diferença?</li>
+                                    <li>Como utilizar?</li>
+                                </ul>
+                                <li>CSS propriedades display & position</li>
+                                <ul>
+                                    <li>Chega de float!</li>
+                                    <li>Para que servem?</li>
+                                    <li>Como utilizar?</li>
+                                </ul>  
+                                <li>Criar formulários</li>
+                                <ul>
+                                    <li>Como fazer formulários com HTML5.</li>
+                                </ul>
+                                <li>Seletores de atributos do CSS3</li>
+                                <ul>
+                                    <li>input[value]</li>
+                                    <li>div[class |= “menu”]</li>
+                                    <li>input[value~=”problema”]</li>
+                                    <li>input[name$=”tela”]</li>
+                                    <li>Entre outros seletores.</li>
+                                </ul>
+                                <li>Seletores avançados do CSS3</li>
+                                <ul>
+                                    <li>Seletor de filhos.</li>
+                                    <li>Seletor de irmãos.</li>
+                                    <li>Seletor de irmãos adjacentes.</li>
+                                    <li>Seletor de negação.</li>
+                                </ul>
+                                <li>Pseudo Classes</li>
+                                <ul>
+                                    <li>:target</li>
+                                    <li>:not</li>
+                                    <li>:first-child</li>
+                                    <li>:last-child</li>
+                                    <li>Entre outros.</li>
+                                </ul>
+                                <li>Pseudo Elementos</li>
+                                <ul>
+                                    <li>::selection</li>
+                                    <li>::first-line</li>
+                                    <li>::first-letter</li>
+                                    <li>::before</li>
+                                    <li>::after</li>
+                                </ul>
+                                <li>Prefixos CSS</li>
+                                <ul>
+                                    <li>-webkit-</li>
+                                    <li>-moz-</li>
+                                    <li>-ms-</li>
+                                    <li>-o-</li>
+                                </ul>
+                                <li>Progressive Enhancement</li>
+                                <li>Animações com CSS3</li>
+                                <ul>
+                                    <li>Transitions</li>
+                                    <li>Transforms</li>
+                                </ul>
+                                <li>Web para mobile</li>
+                                <ul>
+                                    <li>Media types</li>
+                                    <li>Media queries</li>
+                                    <li>Viewport (meta)</li>
+                                </ul>
+                                <li>Responsive Web Design</li>
+                                <li>Mobile First</li>
+                                <li>Framework Bootstrap</li>
+                            </ul>
+                        </section>
                     </section>
                 </article>
 
-                <aside>
+            </article> <!-- #main -->
+            <aside>
                     <h3>Investimento</h3>
                     <p>O módulo 1 completo está apenas por R$229,99.</p>
                     <p>O pagamento/Inscrição é feito via transferência ou depósito.</p>
                     <p>Aproveite a nova turma que irá começar em outubro! As inscrições começam dia 01/09/2015</p>
                     <p>Envie um email para ycodesantos@gmail.com para obter as informações necessárias</p>
-                </aside>
-
-            </article> <!-- #main -->
+            </aside>
         </article> <!-- #main-container -->
 
-        <article class="footer-container">
+        <article class="yc-footer footer-container">
             <footer class="wrapper">
-                <h3>Yoseph Santos</h3>
+                <h4>© 2015 Ycode workshop. Crafted lovingly in Rio de Janeiro, Brazil.</h4>
+                <small>Os workshops são ministrados por Yoseph Santos, um ativo desenvolvedor web que trabalhou em grandes projetos e hoje sonha com o crescimento de seus próprios projetos.</small>
             </footer>
         </article>
 
         <!-- Scripts -->
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
         <script src="build/js/app.min.js"></script>
-        <!-- <script src="js/main.js"></script> -->
     </body>
 </html>
