@@ -1,5 +1,7 @@
 node_modules/
-css/
+css/main.css
+css/normalize.css
+css/normalize.min.css
 js/main.js
 Gruntfile.js
 paletaCoresWorkshop.txt
